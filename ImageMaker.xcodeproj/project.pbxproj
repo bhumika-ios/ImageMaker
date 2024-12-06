@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		ACEC9FAC2D02CDAF004DB83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACEC9F932D02CDAD004DB83E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACEC9F9A2D02CDAD004DB83E;
+			remoteInfo = ImageMaker;
+		};
+		ACEC9FB62D02CDAF004DB83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACEC9F932D02CDAD004DB83E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACEC9F9A2D02CDAD004DB83E;
+			remoteInfo = ImageMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACEC9F9B2D02CDAD004DB83E /* ImageMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEC9FAB2D02CDAF004DB83E /* ImageMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEC9FB52D02CDAF004DB83E /* ImageMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ACEC9F9D2D02CDAD004DB83E /* ImageMaker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ImageMaker;
+			sourceTree = "<group>";
+		};
+		ACEC9FAE2D02CDAF004DB83E /* ImageMakerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ImageMakerTests;
+			sourceTree = "<group>";
+		};
+		ACEC9FB82D02CDAF004DB83E /* ImageMakerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ImageMakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACEC9F982D02CDAD004DB83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEC9FA82D02CDAF004DB83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEC9FB22D02CDAF004DB83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACEC9F922D02CDAD004DB83E = {
+			isa = PBXGroup;
+			children = (
+				ACEC9F9D2D02CDAD004DB83E /* ImageMaker */,
+				ACEC9FAE2D02CDAF004DB83E /* ImageMakerTests */,
+				ACEC9FB82D02CDAF004DB83E /* ImageMakerUITests */,
+				ACEC9F9C2D02CDAD004DB83E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACEC9F9C2D02CDAD004DB83E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACEC9F9B2D02CDAD004DB83E /* ImageMaker.app */,
+				ACEC9FAB2D02CDAF004DB83E /* ImageMakerTests.xctest */,
+				ACEC9FB52D02CDAF004DB83E /* ImageMakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACEC9F9A2D02CDAD004DB83E /* ImageMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEC9FBF2D02CDAF004DB83E /* Build configuration list for PBXNativeTarget "ImageMaker" */;
+			buildPhases = (
+				ACEC9F972D02CDAD004DB83E /* Sources */,
+				ACEC9F982D02CDAD004DB83E /* Frameworks */,
+				ACEC9F992D02CDAD004DB83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ACEC9F9D2D02CDAD004DB83E /* ImageMaker */,
+			);
+			name = ImageMaker;
+			packageProductDependencies = (
+			);
+			productName = ImageMaker;
+			productReference = ACEC9F9B2D02CDAD004DB83E /* ImageMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACEC9FAA2D02CDAF004DB83E /* ImageMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEC9FC22D02CDAF004DB83E /* Build configuration list for PBXNativeTarget "ImageMakerTests" */;
+			buildPhases = (
+				ACEC9FA72D02CDAF004DB83E /* Sources */,
+				ACEC9FA82D02CDAF004DB83E /* Frameworks */,
+				ACEC9FA92D02CDAF004DB83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACEC9FAD2D02CDAF004DB83E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ACEC9FAE2D02CDAF004DB83E /* ImageMakerTests */,
+			);
+			name = ImageMakerTests;
+			packageProductDependencies = (
+			);
+			productName = ImageMakerTests;
+			productReference = ACEC9FAB2D02CDAF004DB83E /* ImageMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACEC9FB42D02CDAF004DB83E /* ImageMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEC9FC52D02CDAF004DB83E /* Build configuration list for PBXNativeTarget "ImageMakerUITests" */;
+			buildPhases = (
+				ACEC9FB12D02CDAF004DB83E /* Sources */,
+				ACEC9FB22D02CDAF004DB83E /* Frameworks */,
+				ACEC9FB32D02CDAF004DB83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACEC9FB72D02CDAF004DB83E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ACEC9FB82D02CDAF004DB83E /* ImageMakerUITests */,
+			);
+			name = ImageMakerUITests;
+			packageProductDependencies = (
+			);
+			productName = ImageMakerUITests;
+			productReference = ACEC9FB52D02CDAF004DB83E /* ImageMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACEC9F932D02CDAD004DB83E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					ACEC9F9A2D02CDAD004DB83E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					ACEC9FAA2D02CDAF004DB83E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = ACEC9F9A2D02CDAD004DB83E;
+					};
+					ACEC9FB42D02CDAF004DB83E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = ACEC9F9A2D02CDAD004DB83E;
+					};
+				};
+			};
+			buildConfigurationList = ACEC9F962D02CDAD004DB83E /* Build configuration list for PBXProject "ImageMaker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACEC9F922D02CDAD004DB83E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ACEC9F9C2D02CDAD004DB83E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACEC9F9A2D02CDAD004DB83E /* ImageMaker */,
+				ACEC9FAA2D02CDAF004DB83E /* ImageMakerTests */,
+				ACEC9FB42D02CDAF004DB83E /* ImageMakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACEC9F992D02CDAD004DB83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEC9FA92D02CDAF004DB83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEC9FB32D02CDAF004DB83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACEC9F972D02CDAD004DB83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEC9FA72D02CDAF004DB83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEC9FB12D02CDAF004DB83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACEC9FAD2D02CDAF004DB83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACEC9F9A2D02CDAD004DB83E /* ImageMaker */;
+			targetProxy = ACEC9FAC2D02CDAF004DB83E /* PBXContainerItemProxy */;
+		};
+		ACEC9FB72D02CDAF004DB83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACEC9F9A2D02CDAD004DB83E /* ImageMaker */;
+			targetProxy = ACEC9FB62D02CDAF004DB83E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACEC9FBD2D02CDAF004DB83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACEC9FBE2D02CDAF004DB83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACEC9FC02D02CDAF004DB83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImageMaker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jbcodeapp.ImageMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACEC9FC12D02CDAF004DB83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImageMaker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jbcodeapp.ImageMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACEC9FC32D02CDAF004DB83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jbcodeapp.ImageMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageMaker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImageMaker";
+			};
+			name = Debug;
+		};
+		ACEC9FC42D02CDAF004DB83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jbcodeapp.ImageMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageMaker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImageMaker";
+			};
+			name = Release;
+		};
+		ACEC9FC62D02CDAF004DB83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jbcodeapp.ImageMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageMaker;
+			};
+			name = Debug;
+		};
+		ACEC9FC72D02CDAF004DB83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jbcodeapp.ImageMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageMaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACEC9F962D02CDAD004DB83E /* Build configuration list for PBXProject "ImageMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEC9FBD2D02CDAF004DB83E /* Debug */,
+				ACEC9FBE2D02CDAF004DB83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEC9FBF2D02CDAF004DB83E /* Build configuration list for PBXNativeTarget "ImageMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEC9FC02D02CDAF004DB83E /* Debug */,
+				ACEC9FC12D02CDAF004DB83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEC9FC22D02CDAF004DB83E /* Build configuration list for PBXNativeTarget "ImageMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEC9FC32D02CDAF004DB83E /* Debug */,
+				ACEC9FC42D02CDAF004DB83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEC9FC52D02CDAF004DB83E /* Build configuration list for PBXNativeTarget "ImageMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEC9FC62D02CDAF004DB83E /* Debug */,
+				ACEC9FC72D02CDAF004DB83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACEC9F932D02CDAD004DB83E /* Project object */;
+}
