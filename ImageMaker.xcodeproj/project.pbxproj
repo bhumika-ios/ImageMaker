@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		ACEC9FC92D02CE5C004DB83E /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC9FC82D02CE4F004DB83E /* Color+Extension.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		ACEC9FAC2D02CDAF004DB83E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		ACEC9F9B2D02CDAD004DB83E /* ImageMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEC9FAB2D02CDAF004DB83E /* ImageMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEC9FB52D02CDAF004DB83E /* ImageMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEC9FC82D02CE4F004DB83E /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		ACEC9F922D02CDAD004DB83E = {
 			isa = PBXGroup;
 			children = (
+				ACEC9FC82D02CE4F004DB83E /* Color+Extension.swift */,
 				ACEC9F9D2D02CDAD004DB83E /* ImageMaker */,
 				ACEC9FAE2D02CDAF004DB83E /* ImageMakerTests */,
 				ACEC9FB82D02CDAF004DB83E /* ImageMakerUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACEC9FC92D02CE5C004DB83E /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
