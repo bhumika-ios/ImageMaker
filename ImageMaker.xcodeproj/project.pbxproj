@@ -29,9 +29,22 @@
 		ACEC9FB52D02CDAF004DB83E /* ImageMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AC3CDABA2D043597006EFE38 /* Exceptions for "ImageMaker" folder in "ImageMaker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = ACEC9F9A2D02CDAD004DB83E /* ImageMaker */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		ACEC9F9D2D02CDAD004DB83E /* ImageMaker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AC3CDABA2D043597006EFE38 /* Exceptions for "ImageMaker" folder in "ImageMaker" target */,
+			);
 			path = ImageMaker;
 			sourceTree = "<group>";
 		};
@@ -396,9 +409,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ImageMaker/Preview Content\"";
+				DEVELOPMENT_TEAM = LU893QGJWJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = ImageMaker/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ImageMaker access device media";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -424,9 +439,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ImageMaker/Preview Content\"";
+				DEVELOPMENT_TEAM = LU893QGJWJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = ImageMaker/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ImageMaker access device media";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
